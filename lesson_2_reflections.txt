@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+new repository and .git directory are created with all repository information.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is a temp space between directory and repository. User have greater flexibility for adding just certain files to staging and then to repository.
