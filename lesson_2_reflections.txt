@@ -5,3 +5,23 @@ new repository and .git directory are created with all repository information.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is a temp space between directory and repository. User have greater flexibility for adding just certain files to staging and then to repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+User can only add files for a logical change to staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Creating new features of making large changes. Ability to merge with master branch makes it easy to have changes in all branches.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps to see all commits and find unreacheable ones, also see the branches and their relationships with master.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is combination of changes from master and the branch. We represent it in diagram to visualize it better.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merge is much faster but automatic conflicts could be difficult to resolve unless you do it manually.
